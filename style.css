@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    background-image: linear-gradient(to right, wheat 75%, rgb(230 42 42) 25%);
+    color: white;
+}
+
+.icon {
+    font-size: 40px;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li a {
+    text-decoration: none;
+    padding: 20px 10px;
+    color: black;
+    display: inline-block;
+}
+
+.log-in-btn {
+    background: black;
+    color: white;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+#bar {
+    display: none;
+}
+
+#first-section {
+    background-image: linear-gradient(to right, wheat 75%, rgb(230, 42, 42)25%);
+    margin: 0 auto;
+    
+}
+
+
+img {
+    width: 350px;
+    margin-right: 70px;
+}
+
+.sixcol {
+    background:  rgb(230, 42, 42);
+}
+
+.fas {
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: white;
+    /* margin-top: 8px; */
+}
+
+.fa-play {
+    font-size: xx-large;
+    color: orangered;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.orderbtn {
+    /* font-size: 25px; */
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+    border: none;
+}
+
+#pizza {
+    /* box-shadow: 0 5px 5px green; */
+    width: 550px;
+    height: 370px;
+}
+
+@media (max-width:340px) {
+    ul {
+        display: block;
+    }
+}
+
+@media (max-width:768px){
+    header {
+        background-color: green;
+    }
+}
+@media (max-width:650px){
+    #bar{
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+}
+
